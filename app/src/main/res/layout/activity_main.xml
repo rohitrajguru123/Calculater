@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Display Screen -->
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="none"
+        android:textSize="32sp"
+        android:gravity="right"
+        android:padding="10dp" />
+
+    <!-- Calculator Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+        <Button
+            android:id="@+id/button7"
+            style="@style/customsytle"
+            android:text="7" />
+
+        <Button
+            android:id="@+id/button8"
+            style="@style/customsytle"
+            android:text="8" />
+
+        <Button
+            android:id="@+id/button9"
+            style="@style/customsytle"
+            android:text="9" />
+
+        <Button
+            android:id="@+id/buttonDivide"
+            style="@style/customsytle"
+            android:text="/" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+        <Button
+            android:id="@+id/button4"
+            style="@style/customsytle"
+            android:text="4" />
+
+        <Button
+            android:id="@+id/button5"
+            style="@style/customsytle"
+            android:text="5" />
+
+        <Button
+            android:id="@+id/button6"
+            style="@style/customsytle"
+            android:text="6" />
+
+        <Button
+            android:id="@+id/buttonMultiply"
+            style="@style/customsytle"
+            android:text="*" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+        <Button
+            android:id="@+id/button1"
+            style="@style/customsytle"
+            android:text="1" />
+
+        <Button
+            android:id="@+id/button2"
+            style="@style/customsytle"
+            android:text="2" />
+
+        <Button
+            android:id="@+id/button3"
+            style="@style/customsytle"
+            android:text="3" />
+
+        <Button
+            android:id="@+id/buttonSubtract"
+            style="@style/customsytle"
+            android:text="-" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+        <Button
+            android:id="@+id/buttonClear"
+            style="@style/customsytle"
+            android:text="C" />
+
+        <Button
+            android:id="@+id/button0"
+            style="@style/customsytle"
+            android:text="0" />
+
+        <Button
+            android:id="@+id/buttonEqual"
+            style="@style/customsytle"
+            android:text="=" />
+
+        <Button
+            android:id="@+id/buttonAdd"
+            style="@style/customsytle"
+            android:text="+" />
+    </LinearLayout>
+</LinearLayout>
